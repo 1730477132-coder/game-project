@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      wall_t_junction.png_0: -8280689574958991233
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
