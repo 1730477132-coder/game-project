@@ -5,6 +5,12 @@ TextureImporter:
   - first:
       213: -2553475120960115462
     second: PL-die_0
+  - first:
+      213: 640386944092017621
+    second: PL-die_1
+  - first:
+      213: 3235395591878996294
+    second: PL-die_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -104,7 +110,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 7
-        y: 6
+        y: 38
         width: 16
         height: 25
       alignment: 0
@@ -116,6 +122,48 @@ TextureImporter:
       bones: []
       spriteID: afcef5808eb309cd0800000000000000
       internalID: -2553475120960115462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PL-die_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 38
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d31761688c13e800800000000000000
+      internalID: 640386944092017621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PL-die_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641ffc1262f66ec20800000000000000
+      internalID: 3235395591878996294
       vertices: []
       indices: 
       edges: []

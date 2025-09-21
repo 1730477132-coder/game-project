@@ -5,6 +5,9 @@ TextureImporter:
   - first:
       213: -4536715034633834245
     second: pellet_power_0
+  - first:
+      213: 7059615618369752722
+    second: pellet_power_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,10 +106,10 @@ TextureImporter:
       name: pellet_power_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 34
-        height: 64
+        x: 11
+        y: 42
+        width: 8
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -116,6 +119,27 @@ TextureImporter:
       bones: []
       spriteID: bf0f97966b95a01c0800000000000000
       internalID: -4536715034633834245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pellet_power_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 10
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e8abf500bc8f160800000000000000
+      internalID: 7059615618369752722
       vertices: []
       indices: 
       edges: []
