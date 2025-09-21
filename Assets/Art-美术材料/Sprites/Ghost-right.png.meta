@@ -178,7 +178,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ghost-right_0: 1316860739614507739
+      Ghost-right_1: 4622584854846440959
+      Ghost-right_2: 841898254307400576
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
