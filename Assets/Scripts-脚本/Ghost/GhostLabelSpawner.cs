@@ -3,7 +3,7 @@ using TMPro;
 
 public class GhostLabelSpawner : MonoBehaviour
 {
-    public GameObject labelPrefab;                // GhostLabelCanvas Ô¤ÖÆ
+    public GameObject labelPrefab;                // GhostLabelCanvas Ô¤ï¿½ï¿½
     public string ghostNamePrefix = "ghost";
     public Vector3 localOffset = new Vector3(0f, 0.25f, 0f);
     public Vector2 canvasSize = new Vector2(0.4f, 0.2f);
@@ -13,9 +13,8 @@ public class GhostLabelSpawner : MonoBehaviour
 
     void Start()
     {
-        if (!labelPrefab) { Debug.LogError("Çë°Ñ labelPrefab Ö¸µ½ GhostLabelCanvas Ô¤ÖÆ"); return; }
 
-        // ÕÒµ½ËùÓÐ¹í
+        // ï¿½Òµï¿½ï¿½ï¿½ï¿½Ð¹ï¿½
         var all = FindObjectsOfType<Transform>();
         int id = 0;
         foreach (var t in all)
@@ -23,18 +22,18 @@ public class GhostLabelSpawner : MonoBehaviour
             if (!t.name.StartsWith(ghostNamePrefix)) continue;
             id++;
 
-            // ÇåÀí¾É±êÇ©
+            // ï¿½ï¿½ï¿½ï¿½ï¿½É±ï¿½Ç©
             var old = t.Find("Label");
             if (old) Destroy(old.gameObject);
 
-            // Éú³É²¢×÷Îª×ÓÎïÌå
+            // ï¿½ï¿½ï¿½É²ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             var inst = Instantiate(labelPrefab, t);
             inst.name = "Label";
             inst.transform.localPosition = localOffset;
             inst.transform.localRotation = Quaternion.identity;
             inst.transform.localScale = Vector3.one;
 
-            // Ç¿ÖÆÐÞÕý Canvas
+            // Ç¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Canvas
             var c = inst.GetComponent<Canvas>();
             if (c)
             {
@@ -46,7 +45,7 @@ public class GhostLabelSpawner : MonoBehaviour
                 rt.sizeDelta = canvasSize;
             }
 
-            // Ð´ÎÄ×Ö
+            // Ð´ï¿½ï¿½ï¿½ï¿½
             var tmp = inst.GetComponentInChildren<TextMeshProUGUI>();
             if (tmp)
             {
