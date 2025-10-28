@@ -15,11 +15,6 @@ public class SceneLoader : MonoBehaviour
     // 通用：在 OnClick 里也可以直接传参（UnityEvent 支持）
     public void LoadByName(string name)
     {
-        if (string.IsNullOrEmpty(name))
-        {
-            Debug.LogError("SceneLoader: sceneName 未设置");
-            return;
-        }
         SceneManager.LoadScene(name);
     }
 
