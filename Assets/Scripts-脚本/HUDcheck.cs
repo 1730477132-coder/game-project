@@ -23,8 +23,7 @@ public class UIRaycastProbe : MonoBehaviour
         raycaster.Raycast(ped, results);
         if (results.Count > 0)
         {
-            // 层级最上面的第一个就是挡住点击的那个
-            Debug.Log($"Top UI under cursor: {results[0].gameObject.name}");
+            // 锟姐级锟斤拷锟斤拷锟斤拷牡锟揭伙拷锟斤拷锟斤拷堑锟阶★拷锟斤拷锟斤拷锟角革拷
         }
     }
 }
