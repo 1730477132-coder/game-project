@@ -1,0 +1,22 @@
+# Run this in your repo root (same folder as Assets/)
+cat > README.md << 'EOF'
+# PacStudent Recreate — Submission (A3)
+
+**Author:** ZhengXu Zhang （25012701） 
+**Unity:** 2023.2.10f1  
+**Main branch:** development (or main)
+
+## How to Run
+1. Open the project in Unity **2023.2.10f1**.  
+2. Open `Assets/Scenes/StartScene.unity` (or `Assets/Scenes/RecreatedLevel.unity`).  
+3. Click **Play**. You should see: intro BGM → normal BGM, power pellet flashing, PacStudent & ghosts looping their animations.
+
+## Completion Checklist
+- [x] **35% Audio** – BGM intro → normal auto switch; StartScene BGM ready.
+- [x] **50% Visual Assets** – Custom art (outside/inside walls & corners, T-junction, ghost exit wall) + normal pellet, power pellet, bonus cherry, life icon; all imported and visible in scene.
+- [x] **65% Animations & Animators** – PacStudent (Up/Down/Left/Right + Death), Power Pellet flash, Ghosts (Walk, Scared, Recovering, Dead). In **Game** view, each controller cycles through all states. Transitions use **Has Exit Time = 3.0** or each segment **≥ 2s**.
+- [x] **75% Level Rebuild** – Map rebuilt **using only 8 tile types** (1–8), mirrored to four quadrants; camera frames the whole level.
+- [ ] **85% (optional)** – PacStudent moves clockwise around the upper-left inner loop at constant speed (frame-rate independent) with movement SFX.
+- [ ] **100% (optional)** – Programmatic level generation from the upper-left quadrant array, mirrored to form the full map.
+
+## Project Structure
